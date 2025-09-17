@@ -13,7 +13,17 @@ $ python3 train.py
 
 # Install Tensorflow
 
-ToDo
+While is it possible to
+```
+$ pip install tensorflow-cpu
+```
+I would suggest against it.  Tensorflow installs and in some cases down grades other packages.  Instead follow the instructions to create a python/conda environment for tensorflow.
+
+[Tensorflow Install](https://www.tensorflow.org/install)
+
+[Tensorflow Pip Install](https://www.tensorflow.org/install/pip)
+
+Windows 11 note: you may need to enable long path name support. 
 
 # Convert Model to tflite
 
