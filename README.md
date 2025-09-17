@@ -5,6 +5,11 @@ We follow a [Tensorflow Tutorial](https://www.tensorflow.org/tutorials/images/cl
 
 The images directory has 5 subdirectory.  Subdirectory 0 has no djungelskogs.  The other 4 contain our friend in one of four tiles.
 
+If you have tensorflow installed in your python implementation.
+
+```
+$ python3 train.py
+```
 
 # Install Tensorflow
 
